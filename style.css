@@ -1,0 +1,22 @@
+.header {
+position:absolute;
+
+}
+
+.menuebar {
+position:absolute;
+}
+
+.maincontent {
+position:absolute;
+
+}
+
+.sidenotes {
+position:absolute;
+float:right;
+}
+
+.footer {
+position:absolute;
+}
