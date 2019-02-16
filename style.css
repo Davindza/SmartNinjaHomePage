@@ -1,22 +1,465 @@
 .header {
-position:absolute;
-
+position:fixed;
+left:26px;
+bottom:680px;
+font-size:28px;
+font-family:arial;
 }
 
-.menuebar {
-position:absolute;
+.table1 {
+border-width:1px;
+border-style:solid;
+padding:44px;
+position:fixed;
+right:7px;
+bottom:660px;
+width:1434px;
+background-color:#476b6b;
 }
 
-.maincontent {
-position:absolute;
-
+.home {
+color:white;
+background-color:#a2c3c3;
+position:fixed;
+left:278px;
+bottom:660px;
+font-size:25px;
 }
 
-.sidenotes {
-position:absolute;
-float:right;
+.contact {
+color:white;
+position:fixed;
+left:348px;
+bottom:660px;
+font-size:22px;
 }
 
-.footer {
-position:absolute;
+.contact:hover {
+color:#669999;
 }
+
+.table2 {
+border-width:1px;
+border-style:solid;
+padding:12px;
+width:60px;
+background-color:#1f2e2e;
+position:fixed;
+left:342px;
+bottom:660px;}
+
+.news {
+color:white;
+position:fixed;
+left:438px;
+bottom:660px;
+font-size:22px;
+}
+
+.news:hover {
+color:#669999;}
+
+.table3 {
+border-width:1px;
+border-style:solid;
+padding:12px;
+width:44px;
+background-color:#1f2e2e;
+position:fixed;
+left:430px;
+bottom:660px;
+}
+
+.gallery {
+color:white;
+position:fixed;
+left:580px;
+bottom:660px;
+font-size:22px;
+}
+
+.gallery:hover {
+color:#669999;
+}
+
+.table4 {
+border-width:1px;
+border-style:solid;
+padding:12px;
+width:50px;
+background-color:#1f2e2e;
+position:fixed;
+left:574px;
+bottom:660px;}
+
+.about {
+color:white;
+position:fixed;
+left:508px;
+bottom:660px;
+font-size:22px;}
+
+.about:hover {
+color:#669999;
+}
+
+.table7 {
+border-width:1px;
+border-style:solid;
+padding:12px;
+width:44px;
+background-color:#1f2e2e;
+position:fixed;
+left:502px;
+bottom:660px;
+}
+
+.table5 {
+width:50px;
+position:fixed;
+left:817px;
+bottom:668px;}
+
+.searching {
+color:white;
+position:fixed;
+right:480px;
+bottom:670px;
+}
+
+.table6 {
+border-width:1px;
+border-style:solid;
+padding:12px;
+width:50px;
+background-color:#1f2e2e;
+position:fixed;
+right:475px;
+bottom:666px;}
+
+.venture {
+position:fixed;
+right:300px;
+bottom:660px;}
+
+.venture2 {
+color:white;
+font-size:17px;
+position:fixed;
+right:108px;
+bottom:670px;}
+
+.venture2:hover {
+color:#669999;
+}
+
+.instruments{
+position:fixed;
+left:150px;
+bottom:600px;
+font-size:17px;
+color:white;
+}
+
+.table8 {
+border-width:1px;
+border-style:solid;
+padding:10px;
+width:202px;
+position:fixed;
+left:100px;
+bottom:600px;
+background-color:#476b6b;
+}
+
+.list {
+position:fixed;
+left:80px;
+bottom:420px;
+color:black;
+}
+
+.g:hover {
+color:#0000cc;
+}
+
+.k:hover {
+color:#0000cc;
+}
+
+.d:hover {
+color:#0000cc;
+}
+
+.s:hover {
+color:#0000cc;
+}
+
+.se:hover {
+color:#0000cc;
+}
+
+.m:hover {
+color:#0000cc;
+}
+
+.dj:hover {
+color:#0000cc;
+}
+
+.c:hover {
+color:#0000cc;
+}
+
+.img1 {
+position:fixed;
+left:420px;
+bottom:520px;
+}
+
+.img2 {
+position:fixed;
+left:678px;
+bottom:520px;
+}
+
+.img3 {
+position:fixed;
+left:781px;
+bottom:520px;
+}
+
+.img4 {
+position:fixed;
+left:420px;
+bottom:390px;
+}
+
+.img5 {
+position:fixed;
+left:575px;
+bottom:390px;
+}
+
+.img6 {
+position:fixed;
+left:700px;
+bottom:390px;
+}
+
+.img7 {
+position:fixed;
+left:420px;
+bottom:280px;
+}
+
+.img8 {
+position:fixed;
+left:625px;
+bottom:280px;
+}
+
+.img9 {
+position:fixed;
+left:730px;
+bottom:280px;
+}
+
+.img10 {
+position:fixed;
+left:420px;
+bottom:170px;
+}
+
+.img11 {
+position:fixed;
+left:560px;
+bottom:170px;
+}
+
+.img12 {
+position:fixed;
+left:663px;
+bottom:170px;}
+
+.img13 {
+position:fixed;
+left:917px;
+bottom:520px;
+}
+
+.img14 {
+position:fixed;
+left:948px;
+bottom:390px;
+}
+
+.img15 {
+position:fixed;
+left:875px;
+bottom:280px;
+}
+
+.img16 {
+position:fixed;
+left:970px;
+bottom:170px;
+}
+
+.stuff {
+position:fixed;
+left:157px;
+bottom:350px;
+font-size:17px;
+color:white;
+}
+
+.other {
+border-width:1px;
+border-style:solid;
+padding:10px;
+width:202px;
+position:fixed;
+left:100px;
+bottom:350px;
+background-color:#476b6b;
+}
+
+.equipment {
+position:fixed;
+left:80px;
+bottom:110px;
+font-size:17px;
+}
+
+.string:hover {
+color:#0000cc;
+}
+
+.bag:hover {
+color:#0000cc;
+}
+
+.stick:hover {
+color:#0000cc;
+}
+
+.cymbale:hover {
+color:#0000cc;
+}
+
+.pic:hover {
+color:#0000cc;
+}
+
+.cable:hover {
+color:#0000cc;
+}
+
+.stand:hover {
+color:#0000cc;
+}
+
+.amp:hover {
+color:#0000cc;
+}
+
+.shirt:hover {
+color:#0000cc;
+}
+
+.chair:hover {
+color:#0000cc;
+}
+
+.contact2 {
+position:fixed;
+right:200px;
+bottom:600px;
+font-size:17px;
+color:white;
+}
+
+.table9 {
+border-width:1px;
+border-style:solid;
+padding:10px;
+width:202px;
+position:fixed;
+right:110px;
+bottom:600px;
+background-color:#476b6b;
+}
+
+.table10 {
+border-width:1px;
+border-style:solid;
+padding:40px;
+width:142px;
+position:fixed;
+right:110px;
+bottom:519px;
+background-color:white;
+}
+
+.number {
+position:fixed;
+bottom:535px;
+right:160px;
+}
+
+.adress {
+position:fixed;
+right:200px;
+bottom:500px;
+font-size:17px;
+color:white;
+}
+
+.table11 {
+border-width:1px;
+border-style:solid;
+padding:10px;
+width:202px;
+position:fixed;
+right:110px;
+bottom:500px;
+background-color:#476b6b;
+}
+
+.strasse {
+position:fixed;
+right:130px;
+bottom:465px;
+}
+
+.table12 {
+border-width:1px;
+border-style:solid;
+padding:40px;
+width:142px;
+position:fixed;
+right:110px;
+bottom:419px;
+background-color:white;
+}
+
+.strasse2 {
+position:fixed;
+right:155px;
+bottom:435px;
+}
+
+.table13 {
+border-width:1px;
+border-style:solid;
+padding:280px;
+width:900px;
+position:fixed;
+left:35px;
+bottom:90px;
+background-color:#527a7a;
+}
+
+
+
